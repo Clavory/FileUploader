@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-    $destination = "C:/dt/xampp/htdocs/FileUploader/uploads/" . $_FILES['userfile']['name'];
+    $destination = "D:/xampp/htdoc/uploads/" . $_FILES['userfile']['name'];
 
     $tmp = $_FILES['userfile']['tmp_name'];
 
